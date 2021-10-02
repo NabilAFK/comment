@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) { // Check press or not Post Comment Button
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<title>Comment System in PHP - Pure Coding</title>
+	<title>Comment System - By Nabil</title>
 </head>
 <body>
 	<div class="wrapper">
@@ -37,19 +37,19 @@ if (isset($_POST['submit'])) { // Check press or not Post Comment Button
 			<div class="row">
 				<div class="input-group">
 					<label for="name">Name</label>
-					<input type="text" name="name" id="name" placeholder="Enter your Name" required>
+					<input type="text" name="name" id="name" placeholder="What would you like to be called?" required>
 				</div>
 				<div class="input-group">
 					<label for="email">Email</label>
-					<input type="email" name="email" id="email" placeholder="Enter your Email" required>
+					<input type="email" name="email" id="email" placeholder="Type in your email here!" required>
 				</div>
 			</div>
 			<div class="input-group textarea">
 				<label for="comment">Comment</label>
-				<textarea id="comment" name="comment" placeholder="Enter your Comment" required></textarea>
+				<textarea id="comment" name="comment" placeholder="Type what you want to comment here.." required></textarea>
 			</div>
 			<div class="input-group">
-				<button name="submit" class="btn">Post Comment</button>
+				<button name="submit" class="btn">Post</button>
 			</div>
 		</form>
 		<div class="prev-comments">
